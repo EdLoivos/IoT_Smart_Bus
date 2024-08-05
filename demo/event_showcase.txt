@@ -1,0 +1,79 @@
+curl -H "Content-Type: application/json" -d @demo/schedules_demo/schedule1.json http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d '{"bus_id": "18C-Out", "trip_id":"18C;1","lat": 57.828261, "lon": 26.535419,"ts": "2022-03-25 07:45:50", "spd": 0, "links": [] }' http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d '{"bus_id": "18C-Inv", "trip_id":"18C;1", "lat": 57.829546205, "lon": 26.52836965,"ts": "2022-05-04 07:46:02", "spd": 0, "links": [] }' http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d '{"bus_id": "1X", "trip_id":"XX;0", "lat": 57.829546205, "lon": 26.52836965,"ts": "2022-05-04 07:46:02", "spd": 0, "links": [] }' http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d '{"bus_id": "2X", "trip_id":"XX;0", "lat": 57.827773871, "lon": 26.527908414,"ts": "2022-05-04 07:46:02", "spd": 0, "links": ["18C-Inv"] }' http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d '{"bus_id": "3X", "trip_id":"XX;0", "lat": 57.827499658, "lon": 26.526395549,"ts": "2022-05-04 07:46:02", "spd": 0, "links": ["18C-Inv"] }' http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d '{"bus_id": "4X", "trip_id":"XX;0", "lat": 57.827771014, "lon": 26.526290963,"ts": "2022-05-04 07:46:02", "spd": 0, "links": ["18C-Inv"] }' http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d '{"bus_id": "18C-Late", "trip_id":"18C;1", "lat": 57.82847892, "lon": 26.53362055,"ts": "2022-05-04 07:48:30", "spd": 0, "links": [] }' http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d '{"bus_id": "18C-Late", "trip_id":"18C;1", "lat": 57.85712539905671, "lon": 26.35578550850216,"ts": "2022-05-04 07:49:05", "spd": 0, "links": [] }' http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d '{"bus_id": "XX", "trip_id":"XX;0", "lat": 57.829546205, "lon": 26.52836965,"ts": "2022-05-04 07:50:01", "spd": 0, "links": [] }' http://localhost:3000/submit
+
+
+
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB00.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB01.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB02.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB03.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB04.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB05.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB06.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB07.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB08.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB09.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB10.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB11.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB12.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB13.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB14.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB15.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB16.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB17.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB18.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB19.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB20.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB21.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB22.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB23.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB24.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB25.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB26.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB27.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB28.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB29.json http://localhost:3000/submit
+
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB30.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB31.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB32.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB33.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB34.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB35.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB36.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB37.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB38.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB39.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB40.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB41.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB42.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB43.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB44.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB45.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB46.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB47.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB48.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB49.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB50.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB51.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB52.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB53.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB54.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB55.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB56.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB57.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB58.json http://localhost:3000/submit
+curl -H "Content-Type: application/json" -d @demo/sim_demo/schedules_demo/scheduleB59.json http://localhost:3000/submit
